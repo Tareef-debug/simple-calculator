@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1 id="h"></h1>
+    <p id="p1"></p>
+    <p id="p2"></p>
+    <p id="demo"></p>
+    <p id="demo1"></p>
+    <p id="demo2"></p>
+    <p id="demo3"></p>
+    <p id="demo4"></p>
+    <script>
+        document.getElementById("h").innerHTML="Javascript"
+        document.getElementById("p1").innerHTML="first paragraph"
+        var a = 69
+        var d = 101
+        var sum = a + d
+        document.getElementById("p2").innerHTML="The totat sum of 69 + 101, is " + sum
+        var x, y
+        x = 12
+        y = 30
+        var a,b,c,d
+        a = x + y
+        b = x - y
+        c = x * y
+        d = x / y
+        document.getElementById("demo").innerHTML= a
+        document.getElementById("demo1").innerHTML= b
+        document.getElementById("demo2").innerHTML= c
+        document.getElementById("demo3").innerHTML= d
+        x -= 3.1415
+        document.getElementById("demo4").innerHTML= x
+    </script>
+</html>
